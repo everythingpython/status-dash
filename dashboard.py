@@ -13,12 +13,13 @@ from textual.widgets import Static, Header, Footer
 
 # ─── EDIT THESE LISTS TO MATCH YOUR ENVIRONMENT ──────────────────────────────
 SERVICES = {
-    "SQL Server": "MSSQL$MSSQLSERVER01",  # display label : service name
+    "SQLServer": "MSSQL$MSSQLSERVER01",  # display label : service name
     "MongoDB": "MongoDB",
 }
 
 PORTS = {
-    "Solr (8983)": 8983,           # display label : tcp port
+    "Solr": 8983,           # display label : tcp port
+    "Redis": 6379
 }
 
 POLL_SECONDS = 2                    # refresh cadence in seconds
