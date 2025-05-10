@@ -29,8 +29,8 @@ PORTS = {
     "Redis": 6379,
     "Postgres" : 5432,
     "RabbitMQ": 5672,
-    "Redacted1": 9876,
-    "Redacted2":5445
+    "WebAPI": 9876,
+    "FileManager":5445
 }
 POLL_SECONDS = 2                    # refresh cadence (s)
 BAR_WIDTH    = 38                   # wider pane (chars)
